@@ -3,7 +3,7 @@ Disable ASLR
 
 Temporarily
 -----------
-use setarch:  
+use setarch (you don't need root, but only works for current session):  
  ``setarch `uname -m` -R /bin/bash``
 
 or "the normal" way:  
